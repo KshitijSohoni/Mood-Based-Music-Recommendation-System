@@ -84,8 +84,8 @@ This project combines **computer vision**, **deep learning**, **unsupervised lea
 
 | Component               | Metric                          |
 |-------------------------|---------------------------------|
-| Emotion Detection Acc.  | ~50%                            |
-| PCA Variance Explained  | ~88%                            |
+| Emotion Detection Acc.  | ~79%                            |
+| PCA Variance Explained  | ~91%                            |
 | Clusters Used           | 4 (mapped to 4 moods)           |
 | Recommendation Quality  | High similarity (cosine > 0.9) |
 
