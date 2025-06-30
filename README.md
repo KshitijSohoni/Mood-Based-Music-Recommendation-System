@@ -52,7 +52,7 @@ This project combines **computer vision**, **deep learning**, **unsupervised lea
 ![KMeans Clustering](/Images/Kmeans.png)
 
 #### PCA Result
-![PCA Result](/Images/PCA_Result.png)
+![PCA Result](/Images/PCA_result.png)
 
 ---
 
