@@ -108,7 +108,3 @@ This project combines **computer vision**, **deep learning**, **unsupervised lea
 - **Seaborn / Matplotlib** – For data visualization
 - **Pandas / NumPy** – For data preprocessing and manipulation
 - **Spotipy** – For Spotify Web API integration
-
----
-
-> Let me know if you’d like this in downloadable format or want to add a `Demo` or `How to Run` section!
