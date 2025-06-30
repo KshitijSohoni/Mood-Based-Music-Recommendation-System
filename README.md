@@ -91,7 +91,7 @@ This project combines **computer vision**, **deep learning**, **unsupervised lea
 
 ---
 
-## 🛠️ Tech Stac
+## 🛠️ Tech Stack
 
 ### Libraries & Frameworks
 - **TensorFlow / Keras** – For CNN-based emotion classification
