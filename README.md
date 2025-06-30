@@ -7,9 +7,8 @@
 
 An AI-powered system that bridges technology and emotions by detecting a user's facial expression and recommending songs from Spotify based on the detected mood.
 
----
 
-## 📌 Overview
+##  Overview
 
 This project combines **computer vision**, **deep learning**, **unsupervised learning**, and the **Spotify API** to recommend music based on real-time facial emotion recognition.
 
@@ -22,16 +21,15 @@ This project combines **computer vision**, **deep learning**, **unsupervised lea
 
 ---
 
-## 🧠 Emotion Detection Pipeline
+## Emotion Detection Pipeline
 
 - **Dataset**: [FER2013 Facial Expression Recognition Dataset](https://www.kaggle.com/datasets/msambare/fer2013)
 - **Model**: Custom CNN built using Keras and trained on 48×48 grayscale facial images
 - **Libraries**: OpenCV, Haar Cascades, TensorFlow/Keras
 - **Performance**: ~50% accuracy *(can be improved with pre-trained models like MobileNet)*
 
----
 
-## 🎶 Music Feature Engineering & Clustering
+## Music Feature Engineering & Clustering
 
 - **Dataset**: Spotify songs dataset with audio features and metadata
 - **Features Used**: `danceability`, `energy`, `valence`, `tempo`, `loudness`, `speechiness`, `acousticness`, etc.
@@ -39,7 +37,7 @@ This project combines **computer vision**, **deep learning**, **unsupervised lea
 - **Explained Variance**: ~88%
 - **Clustering**: KMeans with 4 clusters (mapped to moods)
 
-### 🎭 Cluster to Mood Mapping
+### Cluster to Mood Mapping
 
 | Valence | Energy | Inferred Mood |
 |--------:|-------:|:--------------|
@@ -48,17 +46,17 @@ This project combines **computer vision**, **deep learning**, **unsupervised lea
 | Low     | Low    | Sad           |
 | High    | Low    | Calm          |
 
-## 📸 Visualizations
+### Visualizations
 
-### 🎯 KMeans Clustering Result
+#### KMeans Clustering Result
 ![KMeans Clustering](/Images/Kmeans.png)
 
-### 📊 PCA Result
+#### PCA Result
 ![PCA Result](/Images/PCA_Result.png)
 
 ---
 
-## 🎯 Recommendation Engine
+## Recommendation Engine
 
 - Filters songs based on the detected mood
 - Uses **cosine similarity** on valence and energy
@@ -68,9 +66,7 @@ This project combines **computer vision**, **deep learning**, **unsupervised lea
   - Creates a new Spotify playlist
   - Adds all recommended tracks to the playlist
 
----
-
-## 🟢 Spotify API Integration
+## Spotify API Integration
 
 - **Library**: [Spotipy](https://spotipy.readthedocs.io/)
 - **Authentication**: SpotifyOAuth
@@ -83,9 +79,8 @@ This project combines **computer vision**, **deep learning**, **unsupervised lea
   - Playlist creation
   - Adding tracks to playlist based on mood
 
----
 
-## 📊 Results & Metrics
+## Results & Metrics
 
 | Component               | Metric                          |
 |-------------------------|---------------------------------|
@@ -96,12 +91,9 @@ This project combines **computer vision**, **deep learning**, **unsupervised lea
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stac
 
-### 💻 Language
-- **Python**
-
-### 📚 Libraries & Frameworks
+### Libraries & Frameworks
 - **TensorFlow / Keras** – For CNN-based emotion classification
 - **OpenCV** – For real-time face detection using Haar Cascades
 - **Scikit-learn** – For PCA, KMeans clustering, and cosine similarity
